@@ -1,0 +1,20 @@
+  <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Registro</title>
+ 	<link rel="stylesheet" href="EstiloMensaje.css">
+ 	<link rel="shortcut icon" type="image/x-icon" href="Imagenes/Icono.png">
+ </head>
+ <body>
+ 	<div class="contenedor">
+		<?php if (!empty($message)): ?>
+			<h1><?= $message ?></h1>
+		<?php endif; ?>
+		<div class="Regresar">
+			<p align="center"><a href="Index.php">Regresar a la Página Principal.</a></p>
+		</div>
+	</div>
+ </body>
+ </html>

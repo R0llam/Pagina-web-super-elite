@@ -1,0 +1,211 @@
+body{
+	background-image: url("Imagenes/Fondo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1{
+	color: #fff;
+	text-align: center
+}
+h1{
+	font-family: Times New Roman;
+
+}
+h2{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #fff;
+	text-align: center
+}
+h2{
+	font-family: Times New Roman;
+}
+.Titulo_Categoria{
+	text-align: left;
+}
+
+u{
+	text-decoration-color: #d3a625;
+}
+
+p{
+	color: #fff; 
+}
+.parrafo{
+	text-align: center;
+	margin-top: 30px;
+}
+.Registro{
+	width: 400px;
+	background: #1e2124;
+	padding-right: 55px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	font-family: Times New Roman;
+	color: #fff;
+	margin-bottom: 50px;
+	box-shadow: 10px 13px 40px #000;
+	border-radius: 10px; 
+}
+.Registro h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.controles{
+	margin-top: 5px;
+	width: 100%;
+	background: #1e2124;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border: 3px solid #d3a625;
+	font-family: Times New Roman;
+	font-size: 18px;
+	color: #fff;
+}
+.Registro .contenedor{
+	display: flex;
+	justify-content: center;
+}
+.Boton1 {
+	font-family: Times New Roman;
+	width: 50%;
+	background:	#1e2124;
+	border: 3px solid #d3a625;
+	border-radius: 20px;
+	padding: 12px;
+	margin: 15px 5;
+	font-size: 16px;
+	color: #fff;
+	margin-right: 5px;
+}
+.Boton1:hover{
+	background-color: #d3a625;
+	cursor: pointer;
+}
+.Boton2{
+	font-family: Times New Roman;
+	width: 50%;
+	background:	#1e2124;
+	border: 3px solid #d3a625;
+	border-radius: 20px;
+	padding: 12px;
+	margin: 15px 5;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 5px;
+}
+.Boton2:hover{
+	background-color: #d3a625;
+	cursor: pointer;
+}
+a{
+	text-align:center;
+	color: #fff;
+}
+a{
+	text-align: center;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #d3a625;
+}
+
+div#file{
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding: 0.1px;
+	width: 140px;
+	font-size: 13px;
+	border: 3px solid #d3a625;
+	background-color: #1e2124;
+	-webkit-border-radius:30px;
+	cursor: pointer; 
+}
+div#file:hover{
+	background-color: #d3a625;
+	cursor: pointer;
+}
+input#imagen{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+
+}
+p#texto{
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.Registro input[Type="radio"]{
+	display: none;
+}
+.Registro .radio label{
+	color: #d3a625;
+	padding: 5px 15px 5px 51px;
+	display: inline-block;
+	position: relative;
+	font-size: 1em;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.Registro .radio label:hover{
+	background: rgba(0,116,217,0,1);
+}
+.Registro .radio label:before{
+	content: "";
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	background: none;
+	border: 1px solid #d3a625;
+	border-radius: 50%;
+	position: absolute;
+	left: 17px;
+	top:4px;
+}
+.Registro input[Type="radio"]:checked + label{
+	transition: all 0.25s;
+	padding: 5px 15px;
+	border-radius: 2px;
+	color: #d3a625;
+}
+.Registro input[Type="radio"]:checked + label:before{
+	display: none;
+}
+li{
+	list-style: none;
+}
+li:hover{
+	text-decoration: underline;
+	color: #d3a625;
+}
+.Regresar{
+	margin-top: 40px;
+	text-align:center;
+	color: #fff;
+}
+.Regresar a{
+	text-align: center;
+	text-decoration: none;
+}
+.Regresar a:hover{
+	text-decoration: underline;
+	color: #d3a625;
+}

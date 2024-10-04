@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #26292e;
+	font-family: 'Poppins', sans-serif;
+}
+
+.Encabezados{
+	width: 100%;
+	height: 600px;
+	background: rgb(211,166,37);
+	background: linear-gradient(90deg, rgba(211,166,37,0.4) 0%, rgba(38,41,46,0.4) 52%, rgba(211,166,37,0.4) 100%), url(Categorias/Confiteria/Confiteria-3.jpeg);	
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.Ola{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+header .texto_header{
+	display: flex;
+	height: 550px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.texto_header h1{
+	font-size: 70px;
+	color: #fff;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.card {
+	width: 250px;
+	height: 370px;
+	padding: .8em;
+	margin: 20px;
+	background: #5d5d5d;
+	position: relative;
+	overflow: visible;
+	border-radius: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 10px 8px 20px #000;
+}
+
+.card-img {
+	width: 224px;
+	height: 205px;
+	border-radius: .5rem;
+	transition: .3s ease;
+}
+
+.card-img:hover {
+	transform: translateY(-15%);
+	box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px;
+}
+
+.text-title-1 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 17px;
+	line-height: 1.2;
+	margin-top: 20px;
+}
+
+.text-title-2 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 17px;
+	line-height: 2.0;
+	padding-left: 10px;
+}
+
+.card-footer {
+	width: 90%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 7px;
+}
+
+.svg-icon{
+	width: 30px;
+	height: 30px;
+}
+
+.card-button {
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background-color: #ddd;
+}
+.card-button:hover {
+	transition: .3s ease;
+	background-color: #fff;
+}
+
+.Regresar{
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+.Regresar a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.Regresar a:hover{
+	text-decoration: none;
+	color: #d3a625;
+}
+
+footer{
+    background-color: #1e2124;
+    padding: 60px 0 30px 0;
+    margin: auto;
+	margin-top: 100px;
+    overflow: hidden;
+    max-width: 1300px;
+}
+
+.contenedor_footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conten_foo{
+    text-align: center;
+}
+
+.conten_foo h4{
+    color: #fff;
+    border-bottom: 3px solid #d3a625;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.conten_foo p{
+    color: #ccc;
+}
+
+.tiktok{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 2px solid #d3a625;
+}
+
+.tiktok:hover{
+    background-color: #d3a625;
+    transition: all .5s ease;
+}
+
+.instagram{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 2px solid #d3a625;
+}
+
+.instagram:hover{
+    background-color: #d3a625;
+    transition: all .5s ease;
+}
+
+.icon_social{
+    width: 30px;
+}
+
+.Copyright{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+
+@media (max-width: 800px){
+
+.Encabezados{
+	background-position: center;
+}
+
+}
+
+@media (max-width: 300px){
+
+.texto_header h1{
+	font-size: 50px;
+}
+
+
+
+}

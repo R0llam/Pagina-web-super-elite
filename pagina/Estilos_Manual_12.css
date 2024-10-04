@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #26292e;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+	text-shadow: 5px 3px 8px #000;
+}
+
+h2{
+	margin-top: 15px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 5px 3px 8px #000;
+}
+
+p{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: #fff;
+	text-align: center; 
+}
+
+ul{
+	color: #fff;
+}
+
+li{
+	margin-bottom: 3px;
+	
+}
+
+.titulo{
+	font-size: 50px;
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.titulo_2{
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.Sup_Titulo_Introduccion{
+	width: 100%;
+	font-size: 35px;
+}
+
+.Sup_Titulo{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	text-shadow: 5px 3px 8px #000;
+}
+
+.Sup_Titulo{
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.imagen_principal{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+.imagen_principal img{
+	width: 500px;
+	height: 350px;
+}
+
+.imagen_principal_administrador{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+.imagen_principal_administrador img{
+	width: 560px;
+	height: 390px;	
+}
+
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.container{
+	flex-direction: column;
+}
+
+.titulo_indice{
+	width: 100%;
+	height: 10%;
+}
+
+.indice{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+	background: #1e2124;
+	width: 300px;
+	height: 480px;
+	padding: 8px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+}
+
+.indice_administrador{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+	background: #1e2124;
+	width: 310px;
+	height: 470px;
+	padding: 8px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+}
+
+.indice_lista{
+	margin:auto;
+	margin-top: 10px;
+	width: 80%
+}
+
+.indice_vinculos{
+	text-align:center;
+	color: #fff;
+}
+
+.indice_vinculos{
+	text-align: center;
+	text-decoration: none;
+}
+
+.indice_vinculos:hover{
+	text-decoration: none;
+	color: #d3a625;
+}
+
+.Introduccion {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: #1e2124;
+	width: 80%;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+}
+
+.Antes_de_Iniciar_Sesion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	background: #1e2124;
+	width: 80%;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+}
+
+.imagen_secudaria{
+	display: flex;
+	justify-content: center;
+	margin:auto;
+}
+
+.imagen_Antes_de_Iniciar_Sesion{
+	width: 560px;
+	height: 360px;
+}
+
+.imagen_Iniciar_Sesion{
+	width: 700px;
+	height: 300px;
+}
+
+.imagen_Iniciar_Sesion_2{
+	width: 530px;
+	height: 350px;
+}
+
+.imagen_productos{
+	width: 700px;
+	height: 300px;
+}
+
+.imagen_productos_2{
+	width: 530px;
+	height: 350px;
+}
+
+.imagen_conocenos{
+	width: 700px;
+	height: 300px;
+}
+
+.imagen_conocenos_2{
+	width: 570px;
+	height: 350px;
+}
+
+.imagen_contactanos{
+	width: 700px;
+	height: 300px;
+}
+
+.imagen_contactanos_2{
+	width: 570px;
+	height: 350px;
+}
+
+.Imagen_Despues_de_Iniciar_Sesion{
+	width: 570px;
+	height: 360px;
+}
+
+.Imagen_Enviar_Curriculo{
+	width: 700px;
+	height: 330px;
+}
+
+.Imagen_Enviar_Curriculo_2{
+	width: 570px;
+	height: 350px;	
+}
+
+.imagen_Cerrar_Sesion{
+	width: 700px;
+	height: 300px;	
+}
+
+.imagen_administracion{
+	width: 700px;
+	height: 350px;	
+}
+
+.imagen_administracion_productos{
+	width: 700px;
+	height: 350px;	
+}
+
+.imagen_administracion_productos_2{
+	width: 650px;
+	height: 350px;	
+}
+
+.imagen_administracion_productos_3{
+	width: 650px;
+	height: 400px;	
+}
+
+.imagen_administracion_productos_4{
+	width: 650px;
+	height: 400px;	
+}
+
+.imagen_administracion_curriculos{
+	width: 700px;
+	height: 350px;	
+}
+
+.imagen_administracion_curriculos_2{
+	width: 670px;
+	height: 370px;	
+}
+
+.imagen_administracion_contactanos{
+	width: 700px;
+	height: 350px;	
+}
+
+.imagen_actualizacion_precio{
+	width: 700px;
+	height: 350px;	
+}
+
+.imagen_actualizacion_precio_2{
+	width: 570px;
+	height: 350px;	
+}
+
+.Despues_de_Iniciar_Sesion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	background: #1e2124;
+	width: 80%;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+
+}
+
+.Cerrar_Sesion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: #1e2124;
+	width: 80%;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+}
+
+.Administracion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	background: #1e2124;
+	width: 80%;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	border-radius: 50px;
+	box-shadow: 10px 8px 20px #000;
+	border: 3px solid #d3a625;
+}
+
+.Regresar{
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.Regresar a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.Regresar a:hover{
+	text-decoration: none;
+	color: #d3a625;
+}
+.inicio{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.inicio a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.inicio a:hover{
+	color: #d3a625;
+}
+
+
+@media (max-width: 900px){
+
+.indice{
+	width: 290px;
+	height: 370px;
+}
+
+.Introduccion{
+	width: 90%;
+}
+
+.Antes_de_Iniciar_Sesion{
+	width: 90%;
+}
+
+.Despues_de_Iniciar_Sesion{
+	width: 90%;
+}
+
+.Cerrar_Sesion{
+	width: 90%;
+}
+
+.Administracion{
+	width: 90%;
+}
+
+p{
+	font-size: 13px;
+}
+
+.titulo{
+	font-size: 35px;
+}
+
+.indice_vinculos{
+	font-size: 13px;
+}
+
+.titulo_2{
+	font-size: 26px;
+}
+
+.Sup_Titulo_Introduccion{
+	font-size: 23px;
+}
+
+.Sup_Titulo{
+	font-size: 23px;
+}
+
+.imagen_principal img{
+	width: 350px;
+	height: 250px;
+}
+
+.imagen_principal_administrador img{
+	width: 400px;
+	height: 300px;	
+}
+
+.imagen_Antes_de_Iniciar_Sesion{
+	width: 280px;
+	height: 230px;
+}
+
+.imagen_Iniciar_Sesion{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_Iniciar_Sesion_2{
+	width: 270px;
+	height: 230px;
+}
+
+.imagen_productos{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_productos_2{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_conocenos{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_conocenos_2{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_contactanos{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_contactanos_2{
+	width: 290px;
+	height: 230px;
+}
+
+.Imagen_Despues_de_Iniciar_Sesion{
+	width: 290px;
+	height: 230px;
+}
+
+.Imagen_Enviar_Curriculo{
+	width: 290px;
+	height: 230px;
+}
+
+.Imagen_Enviar_Curriculo_2{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_Cerrar_Sesion{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_productos{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_productos_2{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_productos_3{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_productos_4{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_curriculos{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_curriculos_2{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_administracion_contactanos{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_actualizacion_precio{
+	width: 290px;
+	height: 230px;
+}
+
+.imagen_actualizacion_precio_2{
+	width: 290px;
+	height: 230px;
+}
+
+}
+
+@media (max-width: 330px){
+
+.indice{
+	width: 250px;
+}
+
+.indice_administrador{
+	width: 250px;
+}
+
+.imagen_principal img{
+	width: 250px;
+	height: 180px;
+}
+
+.imagen_principal_administrador img{
+	width: 270px;
+	height: 220px;	
+}
+
+
+.imagen_Antes_de_Iniciar_Sesion{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_Iniciar_Sesion{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_Iniciar_Sesion_2{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_productos{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_productos_2{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_conocenos{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_conocenos_2{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_contactanos{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_contactanos_2{
+	width: 220px;
+	height: 130px;
+}
+
+.Imagen_Despues_de_Iniciar_Sesion{
+	width: 220px;
+	height: 130px;
+}
+
+.Imagen_Enviar_Curriculo{
+	width: 220px;
+	height: 130px;
+}
+
+.Imagen_Enviar_Curriculo_2{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_Cerrar_Sesion{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_productos{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_productos_2{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_productos_3{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_productos_4{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_curriculos{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_curriculos_2{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_administracion_contactanos{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_actualizacion_precio{
+	width: 220px;
+	height: 130px;
+}
+
+.imagen_actualizacion_precio_2{
+	width: 220px;
+	height: 130px;
+}
+
+
+
+
+}

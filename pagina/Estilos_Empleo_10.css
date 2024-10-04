@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #26292e;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	color: #fff;
+	text-align: center
+}
+
+u{
+	text-decoration-color: #d3a625;
+}
+
+p{
+	color: white; 
+	text-align: center;
+}
+
+.PDF{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.IMG{
+	width: 120px;
+	height: 120px;
+}
+
+.Parrafo{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background: transparent;
+	color: white;
+	text-align: center;
+}
+
+.Registro{
+	width: 400px;
+	background: #1e2124;
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	color: white;
+	margin-bottom: 50px;
+	box-shadow: 10px 13px 40px #000;
+	border-radius: 10px; 
+}
+
+.Registro h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.controles{
+	margin-top: 5px;
+	width: 70%;
+	background: #1e2124;
+	padding: 9px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: 3px solid #d3a625;
+	font-size: 18px;
+	color: #fff;
+	outline: none;
+}
+
+.Registro .contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+.Boton1{
+	width: 50%;
+	background:	#1e2124;
+	border: 3px solid #d3a625;
+	border-radius: 20px;
+	padding: 12px;
+	margin: 15px 5;
+	margin-right: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.Boton1:hover{
+	background-color: #d3a625;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.Boton2{
+	width: 50%;
+	background:	#1e2124;
+	border: 3px solid #d3a625;
+	border-radius: 20px;
+	padding: 12px;
+	margin: 15px 5;
+	font-size: 16px;
+	color: #fff;
+}
+
+.Boton2:hover{
+	background-color: #d3a625;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+div#file{
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 12px;
+	width: 170px;
+	font-size: 13px;
+	border: 3px solid #d3a625;
+	background-color: #1e2124;
+	-webkit-border-radius:20px; 
+}
+
+div#file:hover{
+	background-color: #d3a625;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+input#imagen{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+
+}
+p#texto{
+	text-align: center;
+	color: white;
+}
+
+.Regresar{
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	color: #fff;
+	margin-top: 20px;
+}
+.Regresar a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.Regresar a:hover{
+	text-decoration: none;
+	color: #d3a625;
+}
+
+@media (max-width: 800px){
+
+.Registro{
+	width: 350px; 
+}
+
+.controles{
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

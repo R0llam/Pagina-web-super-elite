@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.datos_reserva{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+	width: 90%;
+    max-width: 500px;
+    background-color: #c1c4cb;
+	padding: 35px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	color: #000;
+	margin-bottom: 50px;
+    box-shadow: 0 0 10px rgb(0, 0,0,0.3);
+	border-radius: 10px; 
+}
+
+.datos_reserva h2{
+    text-align: center;
+    color: #26292e ;
+    margin-bottom: 16px;
+}
+
+.datos_reserva p{
+    color: #26292e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.contenedor_botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contenedor_botones .btn_cancelar{
+    width: 30%;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px; 
+    padding-top: 12px; 
+    background-color: #dc3545;  
+    color: white;
+    transition: all ease 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn_cancelar:hover{
+    background-color: #ae2a38;  
+}
+
+.contenedor_botones .btn_confirmar{
+    width: 30%;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px; 
+    padding-top: 12px;   
+    background-color: #0d6efd;  
+    color: white;
+    transition: all ease 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn_confirmar:hover{
+    background-color: #0c54c2;  
+}
+

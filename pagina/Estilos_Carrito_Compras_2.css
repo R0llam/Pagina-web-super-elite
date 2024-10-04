@@ -1,0 +1,34 @@
+
+.menu_link{
+	color: #fff;
+	text-decoration: none;
+	padding: 0 15px;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.menu_link:hover{
+	transition: all .3s;
+	background-color: #d3a625;
+	border-radius: 8px;
+}
+
+.menu_item{
+	list-style: none;
+	position: relative;
+	height: 100%;
+	--clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+	--transform: rotate(-90deg);
+}
+
+.menu_item:hover{
+	--clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	--transform: rotate(0);
+
+}
+
+.svg_carrito{
+	display: block;
+	width: 36px;
+}
